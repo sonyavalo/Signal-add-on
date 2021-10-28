@@ -6,13 +6,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/form2.css">
 
-    <script>
-        $(document).ready(function(){
-            // Enable popovers everywhere
-            $('[data-bs-toggle="popover"]').popover();
-        });
-    </script>
-
 </head>
 <body>
 <div class="container px-4 py-5 mx-auto">
@@ -24,7 +17,8 @@
                         <h2 class="md-5">Signal phone number verification</h2>
                         <h6 class="text-muted ">+17968790594</h6>
                         <h6 class="text-muted ">To verify your phone number, please scan the QR code using your mobile phone and click on Check button after scanning </h6>
-                        <div class="row justify-content-center my-4"> <button class="btn btn-gray fw-bold" onclick="document.getElementById('message').innerHTML=Date()">Check</button></div>
+                        <div class="row justify-content-center my-4"> <button class="btn btn-gray fw-bold">Check</button></div>
+                        <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?" id="check">Click to toggle popover</button>
                         <p id="message"></p>
                     </div>
                 </div>
@@ -34,12 +28,9 @@
     </div>
 </div>
 
-<div>
-    <button type="button" data-bs-toggle="popover" title="Popover title" data-bs-content="Here's some amazing content.">Click to toggle popover</button>
-</div>
-
 <script src="../js/jquery-3.6.0.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js/form2.js"></script>
 
 

@@ -1,7 +1,3 @@
-
-<script>
-    $(document).ready(function(){
+$(document).ready(function(){
     $('[data-bs-toggle="popover"]').popover()
 });
-</script>
-
