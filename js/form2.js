@@ -1,7 +1,5 @@
-
-<script>
-    $(document).ready(function(){
-    $('[data-bs-toggle="popover"]').popover()
+$("#checkButton").click(function () {
+    $(".alert").removeClass("invisible");
 });
-</script>
+
 
