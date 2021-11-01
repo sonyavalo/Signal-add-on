@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="2345">
-      <change afterPath="$PROJECT_DIR$/css/form2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainPopup/form №2.html" afterDir="false" />
+    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="form 3 draft">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/form2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/BarcodeForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/form3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signingForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/form2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/BarcodeForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/form3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/form2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/form3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/ContactForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/signingForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635363108901</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2345">
+      <created>1635718032192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635718032192</updated>
+    </task>
+    <task id="LOCAL-00004" summary="form 3 draft">
+      <created>1635718076381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635718076381</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try" />
     <MESSAGE value="2345" />
-    <option name="LAST_COMMIT_MESSAGE" value="2345" />
+    <MESSAGE value="form 3 draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="form 3 draft" />
   </component>
 </project>
