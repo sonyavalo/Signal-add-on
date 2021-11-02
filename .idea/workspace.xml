@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="form 3 draft">
+    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/js/compose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/displayEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/notSupportedEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/signingForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainPopup/compose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainPopup/displayEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainPopup/notSupportedEmail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/form2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/BarcodeForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/form3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signingForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/BarcodeForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/form2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/form3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/ContactForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/signingForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/ContactForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/ContactForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/signingForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/signingForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635718076381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1635777467501</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635777467501</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +132,7 @@
     <MESSAGE value="try" />
     <MESSAGE value="2345" />
     <MESSAGE value="form 3 draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="form 3 draft" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

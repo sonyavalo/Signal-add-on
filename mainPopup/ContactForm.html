@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Signal Add-on form3</title>
+    <title>Signal Add-on Contact Form</title>
+    <link rel="icon" href="../images/1200px-Signal-Logo.svg%20(1).png">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/form3.css">
 
@@ -10,6 +11,9 @@
 <body>
 <div class="container">
   <div class="row justify-content-center" style="padding-top: 10%">
+    <div class="col-lg-8 text-center">
+      <h1 class="h3 mb-3 fw-normal"><strong>Choose the receiver</strong></h1>
+    </div>
     <div class="col-lg-8">
       <label for="selectBox"><strong>Your Signal contacts</strong></label>
       <select class="form-select" aria-label="Default select example" id="selectBox">
@@ -35,18 +39,19 @@
     </div>
   </div>
   <div class="row justify-content-center" style="padding-top:30px">
-    <div class="col-lg-3">
-      <div id="warning" class="alert alert-danger invisible" role="alert">
+    <div id="warning" class="col-lg-3 d-none">
+      <div  class="alert alert-danger" role="alert">
         <h4 class="alert-heading">Warning!</h4>
         <p>Please, choose one of your contacts or add a new phone number!</p>
       </div>
     </div>
-    <div class="col-lg-3">
-      <div id="success" class="alert alert-success invisible" role="alert">
+    <div id="success" class="col-lg-3 d-none">
+      <div  class="alert alert-success" role="alert">
         <h4 class="alert-heading">Success!</h4>
-        <p>Please, choose one of your contacts or add a new phone number!</p>
+        <p>Your receiver was successfully chosen!</p>
       </div>
     </div>
+    <p class="mt-5 mb-3 text-muted text-center">&copy; 2021–2022</p>
   </div>
 </div>
 
