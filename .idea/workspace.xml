@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/js/compose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/displayEmail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/notSupportedEmail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/signingForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainPopup/compose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainPopup/displayEmail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainPopup/notSupportedEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/ContactForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/ContactForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/signingForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/signingForm.html" afterDir="false" />
-    </list>
+    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="test 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635777467501</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test 2">
+      <created>1635862877329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635862877329</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test 2">
+      <created>1635862901670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635862901670</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +133,7 @@
     <MESSAGE value="2345" />
     <MESSAGE value="form 3 draft" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 2" />
   </component>
 </project>
