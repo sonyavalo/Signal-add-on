@@ -1,5 +1,5 @@
-$("#checkInput").click(function () {
-    if ($('#phoneBox').val()==""&&$('#selectBox').val()=="Your contacts") {
+$("#submit").click(function () {
+    if ($('#floatingInput').val()=="") {
         $("#warning").removeClass("d-none");
         $("#success").addClass("d-none");
     }
@@ -7,6 +7,4 @@ $("#checkInput").click(function () {
         $("#success").removeClass("d-none");
         $("#warning").addClass("d-none");
     }
-
 });
-
