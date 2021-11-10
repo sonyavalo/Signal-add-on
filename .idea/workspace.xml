@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="form 3 draft">
+    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png">
+      <change afterPath="$PROJECT_DIR$/css/popup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/form2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/BarcodeForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/form3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/signingForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/BarcodeForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/form2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/form3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/ContactForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPopup/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/signingForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/compose.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/compose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/compose.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -58,6 +55,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,6 +72,7 @@
       <workItem from="1635362515313" duration="9272000" />
       <workItem from="1635387108648" duration="7692000" />
       <workItem from="1635417103753" duration="319000" />
+      <workItem from="1636312415790" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1635362740872</created>
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635718076381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png">
+      <created>1636235580368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636235580368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,8 @@
     <MESSAGE value="try" />
     <MESSAGE value="2345" />
     <MESSAGE value="form 3 draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="form 3 draft" />
+    <MESSAGE value="Sofya Changes" />
+    <MESSAGE value="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png" />
   </component>
 </project>
