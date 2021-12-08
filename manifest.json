@@ -18,7 +18,7 @@
     "message_display_action": {
         "default_title": "Signal",
         "default_icon" : "images/signal-32px.png",
-        "default_popup": "mainPopup/BarcodeForm.html"
+        "default_popup": "mainPopup/displayEmail.html"
     },
     "compose_action": {
         "default_title": "Signal",

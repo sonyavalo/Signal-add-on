@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png">
-      <change afterPath="$PROJECT_DIR$/css/popup.css" afterDir="false" />
+    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="-Updating the compose section">
+      <change afterPath="$PROJECT_DIR$/js/aes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.md5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/signingForm.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/compose.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/compose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/displayEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/displayEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/signingForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loginForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainPopup/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/compose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/displayEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/displayEmail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/notSupportedEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/notSupportedEmail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/signingForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/loginForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +53,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="206QN0zFxvsTid5ihKmo4URDgi3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,13 +63,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshop-2022" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ehsan\Desktop\Signal-Add-On\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ehsan\Desktop" />
+      <recent name="C:\xampp\htdocs\phpTest\templates" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,6 +93,21 @@
       <workItem from="1635387108648" duration="7692000" />
       <workItem from="1635417103753" duration="319000" />
       <workItem from="1636312415790" duration="147000" />
+      <workItem from="1636563122681" duration="1406000" />
+      <workItem from="1636573784575" duration="102000" />
+      <workItem from="1636574078450" duration="10293000" />
+      <workItem from="1637092302351" duration="600000" />
+      <workItem from="1637126303763" duration="5938000" />
+      <workItem from="1637168054176" duration="3958000" />
+      <workItem from="1637177399700" duration="14592000" />
+      <workItem from="1637283562164" duration="2105000" />
+      <workItem from="1637691900925" duration="50000" />
+      <workItem from="1638584421103" duration="3569000" />
+      <workItem from="1638635551758" duration="16896000" />
+      <workItem from="1638827367234" duration="8051000" />
+      <workItem from="1638863989028" duration="11172000" />
+      <workItem from="1638896140490" duration="15759000" />
+      <workItem from="1638975624786" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1635362740872</created>
@@ -109,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636235580368</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="-Updating the compose section">
+      <created>1636563188429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636563188429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,11 +170,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../templates/Signal-Add-On" />
+    </ignored-roots>
     <MESSAGE value="try" />
     <MESSAGE value="2345" />
     <MESSAGE value="form 3 draft" />
     <MESSAGE value="Sofya Changes" />
     <MESSAGE value="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png" />
+    <MESSAGE value="-Updating the compose section" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Updating the compose section" />
   </component>
 </project>
