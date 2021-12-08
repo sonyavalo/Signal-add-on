@@ -175,7 +175,8 @@ $("#linkButton").click(function () {
     if (deviceName == "") {
         showMessage(false, "Please input a device name!");
     } else {
-        window.open("signalcaptcha://link/" + deviceName);
+        // window.open("signalcaptcha://link/" + deviceName);
+        windows.openDefaultBrowser("http://google.com");
     }
 });
 
