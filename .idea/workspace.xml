@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="last version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/BarcodeForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ContactForm.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/compose.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/compose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/displayEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/displayEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loginForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/notSupportedEmail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/ContactForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/compose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/displayEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/displayEmail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/loginForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/notSupportedEmail.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +108,8 @@
       <workItem from="1638827367234" duration="8051000" />
       <workItem from="1638863989028" duration="11172000" />
       <workItem from="1638896140490" duration="15759000" />
-      <workItem from="1638975624786" duration="2436000" />
+      <workItem from="1638975624786" duration="4874000" />
+      <workItem from="1639059507878" duration="13235000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <created>1635362740872</created>
@@ -147,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638978870075</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="last version">
+      <created>1638985147287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638985147287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

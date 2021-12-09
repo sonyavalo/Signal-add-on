@@ -1,4 +1,5 @@
 var tabId;
+var encryptedEmailBody;
 
 async function load() {
     // The user clicked our button, get the active tab in the current window using
@@ -17,7 +18,8 @@ async function load() {
     if (isSupported(messageBody)) {
         document.getElementById("senderEmailAddress").textContent = messageDisplay.author;
         document.getElementById("emailSubject").textContent = messageDisplay.subject;
-        document.getElementById("encryptedEmailBody").textContent = messageBody;
+        encryptedEmailBody = messageBody;
+        displayEmail();
     } else {
         notSupportedEmail();
     }
@@ -25,7 +27,7 @@ async function load() {
 
 document.addEventListener("DOMContentLoaded", load);
 
-function showMessage(type, message) {
+function showMessage(type, message, timerOn = true) {
     removeMessage();
     if (type) {
         $("#successfulBox").removeClass("d-none");
@@ -35,9 +37,11 @@ function showMessage(type, message) {
         $("#warningMessage").text(message);
     }
 
-    // setInterval(function () {
-    //     removeMessage()
-    // }, 5000);
+    if (timerOn) {
+        setInterval(function () {
+            removeMessage()
+        }, 5000);
+    }
 }
 
 function removeMessage() {
@@ -52,19 +56,18 @@ function getEncryptedEmail(value) {
     return subStr[1];
 }
 
-function getHashOfPassword(value) {
-    var subStr = String(value.match("h/##[0-9a-f]{32}##/h"));
+function getIdOfPassword(value) {
+    var subStr = String(value.match("h/##[0-9]{20}##/h"));
     var val2 = subStr.substring(4, subStr.length-4);
     return val2;
 }
 
 function isSupported(mailContent) {
-    return mailContent.includes("Hashed Password:") && mailContent.includes("Email Content:");
+    return mailContent.includes("###SignalEncrypted###");
 }
 
 function notSupportedEmail() {
-    $("#displayEmail").addClass("d-none");
-    showMessage(false, "This email is not supported by Signal Add-On!");
+    showMessage(false, "This email is not supported by Signal Add-On!", false);
 }
 
 $("#linkButton").click(function () {
@@ -73,19 +76,23 @@ $("#linkButton").click(function () {
     if (deviceName == "") {
         showMessage(false, "Please input a device name!");
     } else {
-        window.open("signalcaptcha://link/" + deviceName);
+        $.ajax({
+            url: "http://192.168.56.103:5000/api/v1/resources/linkDevice",
+            type: "GET",
+            data: {
+                deviceName: deviceName,
+            },
+            success: function (data) {
+                showMessage(true, "Now you can link " + data.deviceName + " through terminal.");
+            }
+        });
     }
 });
 
-$("#decryptEmail").click(function () {
-    var key = $("#signalKey").val();
-    var encryptedEmail = getEncryptedEmail($("#encryptedEmailBody").text());
-
-    // Decrypt
-    var bytes  = CryptoJS.AES.decrypt(encryptedEmail, key);
-    var plaintext = bytes.toString(CryptoJS.enc.Utf8);
-    $("#decryptedEmailBody").html(plaintext);
-});
+function decryptEmail() {
+    $("#decryptedEmailBody").html("Decrypting Email...");
+    findPassword();
+}
 
 $("#logout").click(function () {
     var phoneNumber = $("#senderVerifiedPhoneNumber").text();
@@ -103,37 +110,44 @@ $("#logout").click(function () {
     });
 });
 
-$("#findPassword").click(function () {
+function findPassword() {
     $.ajax({
         url: "http://192.168.56.103:5000/api/v1/resources/getPasswordOfHash",
         type: "GET",
         data: {
-            hash: getHashOfPassword($("#encryptedEmailBody").text()),
+            hash: getIdOfPassword(encryptedEmailBody),
         },
         success: function (data) {
-            $("#signalKey").val(data.password);
+            showMessage(true, "Password has been derived successfully!");
+
+            var encryptedEmail = getEncryptedEmail(encryptedEmailBody);
+            // Decrypt
+            var bytes  = CryptoJS.AES.decrypt(encryptedEmail, data.password);
+            var plaintext = bytes.toString(CryptoJS.enc.Utf8);
+            $("#decryptedEmailBody").empty();
+            $("#decryptedEmailBody").html(plaintext);
         },
         error: function (data) {
-            showMessage(false, data);
+            showMessage(false, "Password has not been found!");
         }
     });
-});
+}
 
-$(document).ready(function () {
+function displayEmail() {
     $.ajax({
         url: "http://192.168.56.103:5000/api/v1/resources/getRegisteredPhoneNumber",
         type: "GET",
         success: function (data) {
-            console.log(data);
             if (data.phoneNumber != "") {
                 $("#displayEmail").removeClass("d-none");
                 $("#senderVerifiedPhoneNumber").html(data.phoneNumber);
+                decryptEmail();
             } else {
                 $("#linkForm").removeClass("d-none");
             }
         },
         error: function (data) {
-            showMessage(false, data);
+            showMessage(false, "Something went wrong!");
         }
     });
-});
+}

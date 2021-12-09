@@ -10,17 +10,11 @@ async function load() {
     document.getElementById("receiverEmailAddress").textContent = compose.to;
     document.getElementById("emailSubject").textContent = compose.subject;
     document.getElementById("emailBody").innerText = compose.body;
+
+    showCompose();
 }
 
 document.addEventListener("DOMContentLoaded", load);
-
-
-$("#encryptEmail").click(function () {
-    // Encrypt
-    var ciphertext = "e/##" + CryptoJS.AES.encrypt($("#emailBody").text(), $("#signalKey").val()) + "##/e";
-
-    $("#emailBodyCiphertext").html(ciphertext.toString());
-});
 
 function phoneValidate(phone) {
     var regexPattern=new RegExp(/^[0-9-+]+$/);    // regular expression pattern
@@ -62,12 +56,21 @@ function loginToSignal(phoneNumber) {
     });
 }
 
+function getRandomString(length) {
+    var randomChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*';
+    var result = '';
+    for ( var i = 0; i < length; i++ ) {
+        result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+    }
+    return result;
+}
+
 function sendMessageWithSignal(phoneNumber) {
     var password = $("#signalKey").val();
     var receiverPhoneNumber = $("#contactList").val();
 
     if (password !== "" && receiverPhoneNumber !== "") {
-        var md5 = $.md5(password);
+        var randomID = (Math.floor((Math.random() * 2000000) + 1000000)) + "" + Date.now();
         $.ajax({
             url: "http://192.168.56.103:5000/api/v1/resources/sendMessage",
             type: "GET",
@@ -76,7 +79,7 @@ function sendMessageWithSignal(phoneNumber) {
                 senderPhone: phoneNumber,
                 receiverPhone: receiverPhoneNumber,
                 password: password,
-                hash: md5,
+                hash: randomID,
             },
 
             success: function (data) {
@@ -87,8 +90,8 @@ function sendMessageWithSignal(phoneNumber) {
             }
         });
         var encryptedBody = $("#emailBodyCiphertext").val();
-        md5 = "h/##" + md5 + "##/h";
-        var bodyText = "Hashed Password: <br>" + md5 + " <br> Email Content: <br>" + encryptedBody;
+        randomID = "h/##" + randomID + "##/h";
+        var bodyText = "###SignalEncrypted### <br>" + "ID: <br>" + randomID + " <br> Email Content: <br>" + encryptedBody;
         messenger.compose.setComposeDetails(tabId, {body: bodyText});
         messenger.compose.sendMessage(tabId, {mode: "sendNow"});
     }else {
@@ -175,12 +178,29 @@ $("#linkButton").click(function () {
     if (deviceName == "") {
         showMessage(false, "Please input a device name!");
     } else {
-        // window.open("signalcaptcha://link/" + deviceName);
-        windows.openDefaultBrowser("http://google.com");
+        $.ajax({
+            url: "http://192.168.56.103:5000/api/v1/resources/linkDevice",
+            type: "GET",
+            data: {
+                deviceName: deviceName,
+            },
+            success: function (data) {
+                showMessage(true, "Now you can link " + data.deviceName + " through terminal.");
+            }
+        });
     }
 });
 
-$(document).ready(function () {
+function encryptEmail() {
+    // Encrypt
+    var password = getRandomString(20);
+    $("#signalKey").val(password);
+    var ciphertext = "e/##" + CryptoJS.AES.encrypt($("#emailBody").text(), password) + "##/e";
+
+    $("#emailBodyCiphertext").html(ciphertext.toString());
+}
+
+function showCompose() {
     $.ajax({
         url: "http://192.168.56.103:5000/api/v1/resources/getRegisteredPhoneNumber",
         type: "GET",
@@ -189,6 +209,7 @@ $(document).ready(function () {
                 $("#sendMessageForm").removeClass("d-none");
                 $("#senderVerifiedPhoneNumber").html(data.phoneNumber);
                 syncContactList(data.phoneNumber);
+                encryptEmail()
             } else {
                 $("#linkForm").removeClass("d-none");
             }
@@ -197,4 +218,4 @@ $(document).ready(function () {
             showMessage(false, "Something went wrong!");
         }
     });
-});
+}
