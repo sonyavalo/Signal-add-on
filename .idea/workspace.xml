@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="last version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/BarcodeForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ContactForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/compose.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/compose.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/displayEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/displayEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loginForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/notSupportedEmail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/ContactForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/compose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/displayEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/displayEmail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/loginForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainPopup/notSupportedEmail.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Sofya" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="206QN0zFxvsTid5ihKmo4URDgi3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshop-2022" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ehsan\Desktop\Signal-Add-On\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ehsan\Desktop" />
+      <recent name="C:\xampp\htdocs\phpTest\templates" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="" />
+      <created>1635362514087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635362514087</updated>
+      <workItem from="1635362515313" duration="9272000" />
+      <workItem from="1635387108648" duration="7692000" />
+      <workItem from="1635417103753" duration="319000" />
+      <workItem from="1636312415790" duration="147000" />
+      <workItem from="1636563122681" duration="1406000" />
+      <workItem from="1636573784575" duration="102000" />
+      <workItem from="1636574078450" duration="10293000" />
+      <workItem from="1637092302351" duration="600000" />
+      <workItem from="1637126303763" duration="5938000" />
+      <workItem from="1637168054176" duration="3958000" />
+      <workItem from="1637177399700" duration="14592000" />
+      <workItem from="1637283562164" duration="2105000" />
+      <workItem from="1637691900925" duration="50000" />
+      <workItem from="1638584421103" duration="3569000" />
+      <workItem from="1638635551758" duration="16896000" />
+      <workItem from="1638827367234" duration="8051000" />
+      <workItem from="1638863989028" duration="11172000" />
+      <workItem from="1638896140490" duration="15759000" />
+      <workItem from="1638975624786" duration="4874000" />
+      <workItem from="1639059507878" duration="13235000" />
+    </task>
+    <task id="LOCAL-00001" summary="try">
+      <created>1635362740872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635362740872</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2345">
+      <created>1635363108901</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635363108901</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2345">
+      <created>1635718032192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635718032192</updated>
+    </task>
+    <task id="LOCAL-00004" summary="form 3 draft">
+      <created>1635718076381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635718076381</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png">
+      <created>1636235580368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636235580368</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-Updating the compose section">
+      <created>1636563188429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636563188429</updated>
+    </task>
+    <task id="LOCAL-00007" summary="last version">
+      <created>1638978870075</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638978870075</updated>
+    </task>
+    <task id="LOCAL-00008" summary="last version">
+      <created>1638985147287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638985147287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../templates/Signal-Add-On" />
+    </ignored-roots>
+    <MESSAGE value="try" />
+    <MESSAGE value="2345" />
+    <MESSAGE value="form 3 draft" />
+    <MESSAGE value="Sofya Changes" />
+    <MESSAGE value="Merge branch 'Sofya'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;images/signal-64px.png" />
+    <MESSAGE value="-Updating the compose section" />
+    <MESSAGE value="last version" />
+    <option name="LAST_COMMIT_MESSAGE" value="last version" />
+  </component>
+</project>
