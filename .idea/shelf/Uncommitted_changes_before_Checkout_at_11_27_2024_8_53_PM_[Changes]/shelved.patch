@@ -1,0 +1,46 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,22 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="last version">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/popup.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/BarcodeForm.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/ContactForm.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/compose.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/compose.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/displayEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/displayEmail.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/loginForm.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/notSupportedEmail.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/mainPopup/BarcodeForm.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/mainPopup/ContactForm.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/mainPopup/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/compose.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/mainPopup/displayEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainPopup/displayEmail.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/mainPopup/loginForm.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/mainPopup/notSupportedEmail.html" beforeDir="false" />
+-    </list>
++    <list default="true" id="558025ea-61f7-417c-8808-699a7ccb613a" name="Changes" comment="last version" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -40,7 +25,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="Sofya" />
++        <entry key="$PROJECT_DIR$" value="master" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -183,7 +168,6 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <ignored-roots>
